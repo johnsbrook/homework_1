@@ -8,7 +8,13 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Added maximum width to avoid over-stretching  */
 header {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -61,10 +67,18 @@ p {
 
 
 /* Changed div into img tag */
+/* Centered image */
+/* Added maximum width to avoid over-stretching  */
 .hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
+    max-width: 1200px;
+
     /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: 100%;
     background-position: center;
@@ -80,9 +94,14 @@ p {
     margin-left: 25px;
 }
 
+/* Added maximum width to avoid over-stretching  */
 .container {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -106,8 +125,6 @@ p {
     color: #ffffff;
 }
 
-
-
 .content-items img {
     max-height: 200px;
 }
@@ -118,8 +135,6 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-
 
 
 /* Separated aside tag CSS from Main tag */
@@ -169,7 +184,7 @@ footer h4 {
 
 
 
-/* Consolidated CSS coding below */
+/* Consolidated CSS coding and moved below */
 
 
 /* Commented excess CSS */
