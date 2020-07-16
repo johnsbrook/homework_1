@@ -25,7 +25,8 @@ header h1 .seo {
 }
 
 /* Changed div to nav */
-header nav {
+/* Deleted excess classes and elements */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,12 +35,14 @@ header nav {
 }
 
 /* Changed div to nav */
-header nav ul {
+/* Deleted excess classes and elements */
+ ul {
     list-style-type: none;
 }
 
+/* Deleted excess classes and elements */
 /* Changed div to nav */
-header nav ul li {
+ li {
     display: inline-block;
     margin-left: 25px;
 }
