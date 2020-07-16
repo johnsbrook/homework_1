@@ -20,6 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
+/* Deleted header h1 */
 .seo {
     color: #d9dcd6;
 }
@@ -93,7 +94,6 @@ p {
     width: 75%;
     margin-left: 20px;
     height: 980px;
-    background-color: red;
 }
 
 /* Adjusted height to 320px and condensed CSS code into a single section */
